@@ -1,0 +1,99 @@
+/* Global Layout */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding:0;
+    background-color: #fafafa;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #388E3C;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    background-color: #2E7D32;
+    border-radius: 4px;
+}
+
+nav a.active {
+    border-bottom: 2px solid yellow;
+}
+
+/* Main Layout */
+main {
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+/* Highlight Section (Homepage only) */
+.highlight {
+    background-color:lightblue;
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-left: 6px solid #4CAF50;
+}
+
+/* Articles */
+article {
+    background-color: #f9fff9;
+    padding: 15px;
+    border: 1px solid #b4e3b5;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* About Page Image */
+.about-img {
+    max-width: 300px;
+    width: 100%;
+    border: 3px solid #4CAF50;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    width: 100%;
+    margin-top: 20px;
+}
+.image{
+    width:100px;
+    height:100px;
+    
+
+}
